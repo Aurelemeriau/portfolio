@@ -1,0 +1,31 @@
+button {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgba(255,243,214,1);
+    background: #023047;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #FB8500;
+    font-family: var(--font);
+  }
+  
+  button:hover {
+    color: #023047;
+    box-shadow: inset 0 -100px 0 0 #FB8500;
+    scale: 1.1;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+
+ 
+
+ 
